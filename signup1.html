@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn Sign-Up</title>
+  <link rel="stylesheet" href="stylesignup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- LinkedIn Logo -->
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo" width="80">
+    </div>
+
+    <!-- Header Text -->
+    <h1 class="header-text">Make the most of your professional life</h1>
+
+    <!-- Sign-Up Form -->
+    <div class="form-container">
+      <form action="signup2.html" method="get">
+        <label for="email">Email</label>
+        <input type="email" id="email" class="input-field" placeholder="Email" required>
+
+        <label for="password">Password (6+ characters)</label>
+        <div class="password-container">
+          <input type="password" id="password" class="input-field" placeholder="Password" required>
+          <span class="show-password">Show</span>
+        </div>
+
+        <div class="remember-me">
+          <input type="checkbox" id="remember">
+          <label for="remember">Remember me</label>
+        </div>
+
+        <p class="agreement-text">By clicking Agree & Join or Continue, you agree to the LinkedIn 
+          <a href="#">User Agreement</a>, <a href="#">Privacy Policy</a>, and <a href="#">Cookie Policy</a>.
+        </p>
+
+        <button type="submit" class="primary-button">Agree & Join</button>
+
+        <div class="divider">
+          <span>or</span>
+        </div>
+
+        <button type="button" class="secondary-button">
+          <img src="images/google.png" alt="Google logo" width="18">
+          Continue with Google
+        </button>
+      </form>
+
+      <p class="signin-link">Already on LinkedIn? <a href="#">Sign in</a></p>
+    </div>
+
+    <!-- Footer Links -->
+    <footer>
+      <p>Looking to create a page for a business? <a href="#">Get help</a></p>
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Accessibility</a>
+        <a href="#">User Agreement</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Copyright Policy</a>
+        <a href="#">Brand Policy</a>
+        <a href="#">Guest Controls</a>
+        <a href="#">Community Guidelines</a>
+        <a href="#">Language</a>
+      </div>
+      <p>© 2024 LinkedIn</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,267 @@
+body {
+    background-color: #FFFEFE;
+}
+.clickable-img{
+    width: auto;
+    height: auto;
+
+}
+.navbar{
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.go-to{
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-button {
+    border: none; 
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 0.8s;
+}
+.nav-button:hover {
+    background-color: #0A67C3;
+
+}
+#signin {
+    font-size: large;
+    color: #0A67C3;
+    background-color: #FFFEFE;
+    border-color: #0A67C3;
+    border-width: 2px;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+#joinnow {
+    font-size: large;
+    color: #0A67C3;
+    background-color: #FFFEFE;
+    border: solid transparent;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#joinnow:hover {
+    font-size: large;
+    color: #0A67C3;
+    background-color: #FFFEFE;
+    border-color: #0A67C3;
+    border-width: 2px;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+section {
+    margin-left: 80px;
+}
+.welcome {
+    color: #526A6E;
+    font-size: xxx-large;
+    width: auto;
+}
+#signemail {
+    font-size: large;
+    color: #181919;
+    background-color: #FFFEFE;
+    border-color: #101010;
+    border-width: 2px;
+    border-radius: 30px;
+    padding: 10px 100px 10px 100px;
+    cursor: pointer;
+
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.policy {
+    width: 350px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+} 
+#asidebg {
+    max-width: 100%;
+    min-width: 50%;
+    height: auto;
+}
+#foot {
+    background-color: #DFEFFF;
+}
+#join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    color: #053f79;
+    font-style:;
+}
+#footill {
+    max-width: 100vw;
+    width: 100%;
+}
+/*login page styling */
+.logbody {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Logo */
+  .logo img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  /* Card */
+  .card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Google Button */
+  .google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .google-btn img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Divider */
+  .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #777;
+    margin: 15px 0;
+  }
+  
+  .divider hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+  .divider span {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  
+  /* Form Fields */
+  form input[type="text"], form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .password-field {
+    position: relative;
+  }
+  
+  .show-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #0073b1;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    color: #0073b1;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  /* Checkbox */
+  .checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox input {
+    margin-right: 8px;
+  }
+  
+  .checkbox label {
+    color: #333;
+    font-size: 14px;
+  }
+  
+  /* Sign In Button */
+  .sign-in-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0073b1;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Footer Links */
+  .footer {
+    margin-top: 20px;
+  }
+  
+  .footer a {
+    color: #0073b1;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  /* Bottom Links */
+  .bottom-links {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .bottom-links a {
+    margin: 0 8px;
+    color: #777;
+    text-decoration: none;
+  }

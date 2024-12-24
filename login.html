@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="logbody">
+  <!-- Container -->
+  <div class="container">
+    
+    <!-- Logo -->
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo">
+    </div>
+    
+    <!-- Sign In Card -->
+    <div class="card">
+      <h2>Sign in</h2>
+      
+      <!-- Google Sign In Button -->
+      <button class="google-btn">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png" alt="Google Logo">
+        Continue with Google
+      </button>
+      
+      <!-- Divider -->
+      <div class="divider">
+        <hr>
+        <span>or</span>
+        <hr>
+      </div>
+      
+      <!-- Sign In Form -->
+      <form id="loginForm">
+        <input type="text" id="email" placeholder="Email or phone" required>
+        <div class="password-field">
+          <input type="password" id="password" placeholder="Password" required>
+          <span class="show-password" onclick="togglePassword()">Show</span>
+        </div>
+        
+        <a href="#" class="forgot-password">Forgot password?</a>
+        
+        <!-- Keep Me Logged In -->
+        <div class="checkbox">
+          <input type="checkbox" id="keep-logged-in">
+          <label for="keep-logged-in">Keep me logged in</label>
+        </div>
+        
+        <!-- Sign In Button -->
+        <button type="submit" class="sign-in-btn">Sign in</button>
+      </form>
+      
+      <!-- Error Message -->
+      <p id="error" class="error-message" style="color: red; display: none;">Wrong user or pass</p>
+      
+      <!-- Footer Links -->
+      <div class="footer">
+        <p>New to LinkedIn? <a href="signup1.html">Join now</a></p>
+      </div>
+    </div>
+    
+    <!-- Bottom Links -->
+    <footer class="bottom-links">
+      <a href="#">User Agreement</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Community Guidelines</a>
+      <a href="#">Cookie Policy</a>
+      <a href="#">Copyright Policy</a>
+      <a href="#">Send Feedback</a>
+      <a href="#">Language</a>
+    </footer>
+  </div>
+</div>
+
+<script src="validate.js">  
+</script>
+
+</body>
+</html>
